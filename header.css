@@ -1,0 +1,60 @@
+.div-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2vh;
+}
+
+
+.nav-container{
+    width: 100%;
+    display: flex;
+}
+
+.logo{
+    width: 50%;
+}
+
+.logo p b{
+    opacity: 0.7;
+    font-size: 1.1rem;
+}
+
+.nav{
+    width: 50%;
+
+}
+
+header{
+    padding: 4vh;
+    height: 7vh;
+    width: 100%;
+    background-color: #FCF2E9;
+}
+
+.nav ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+.nav ul li{
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.nav ul button{
+    border: 1px transparent;
+    border-radius: 6px;
+    background-color: orange;
+    color: #F9F9F9;
+    padding: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+    /* opacity: 0.7; */
+}

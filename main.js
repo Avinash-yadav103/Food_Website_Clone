@@ -5,4 +5,19 @@
 function addClass() {
     let element = document.getElementById("myDiv");
     element.classList.add("highlight");
-    }
+}
+
+// Use scroll animations to learn them
+const observer = new IntersectionObserver((entries)=>{
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('show');
+        }
+        else{
+            entry.target.classList.remove('show'); //for showing animation multiple times
+        }
+    });
+});
+
+const hiddenElements = document.querySelectorAll('.hidden');    
+hiddenElements.forEach((element) => observer.observe(element));

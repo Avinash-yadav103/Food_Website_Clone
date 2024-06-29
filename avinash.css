@@ -139,7 +139,7 @@
     padding: 5rem 12rem 5rem 12rem;
 }
 
-.sec3_d1{
+.sec3_d1, .sec3_d3, .sec3_d2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,8 +155,10 @@
 
 .mobileimg{
     display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 50%;
-    
 }
 
 .mobileimg img{
@@ -176,6 +178,18 @@
 
 }
 
+.align_in{
+    margin: 20px;
+}
+
+.align_in p{
+    margin: 10px;   
+}
+
+.h2{
+    margin-top: 1rem;
+}
+
 .card_text{
     display: flex;
     align-items: center;
@@ -183,12 +197,34 @@
     font-size: large;
 }
 
+.sec2_but{
+    display: flex;
+}
+.sec2_but button{
+    /* padding: 1px; */
+    width: 70px;
+}
+
+.non{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    color: white;
+    border: none;
+    width: 20%;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+
 .sec_cards{
     display: flex;
     flex-direction: column;
     margin: 3rem;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    
+    border-radius: 10px;
 }
 
 .sec_cards img{
@@ -207,10 +243,74 @@
     color: white;
     border: none;
     width: 20%;
-    margin: 10px;
+    /* margin: 10px; */
     border-radius: 10px;
 }
 
-/* .card_3{
-    text-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-} */
+.h3{
+    margin: 10px;
+    margin-left: 0;
+    /* font-weight: 790; */
+    font-size: 23px;
+}
+
+i{
+    padding: 10px;
+    color: tomato;
+}
+
+.card_text p{
+    font-size: 1.5rem;
+}
+
+.card_3{
+    /* text-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+    padding-left: 40px;
+} 
+
+.bottom_c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.main_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 240px 40px 240px;
+    border-radius: 20px;
+    background-color: orange;
+    height: auto;
+    width: 70%;
+}
+
+.main_menu img{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.menu_menu{
+    padding: 70px;
+
+}
+
+.menu_menu p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top_inputs input{
+    margin: 20px;
+}
+.bottom_inputs input{
+    margin: 20px;
+}

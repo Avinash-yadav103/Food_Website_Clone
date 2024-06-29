@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="avinash.css">
     <link rel="stylesheet" href="vahant.css">
     <link rel="stylesheet" href="header.css">
@@ -55,11 +56,11 @@
 
         <section class="sec2_2">
             <div class="companies">
-                <img src="img/logos/forbes.png" alt="">
-                <img src="img/logos/business-insider.png" alt="">
-                <img src="img/logos/usa-today.png" alt="">
-                <img src="img/logos/the-new-york-times.png" alt="">
-                <img src="img/logos/techcrunch.png" alt="">
+                <img src="img/logos/forbes.png" alt="" class="hidden">
+                <img src="img/logos/business-insider.png" alt="" class="hidden">
+                <img src="img/logos/usa-today.png" alt="" class="hidden">
+                <img src="img/logos/the-new-york-times.png" alt="" class="hidden">
+                <img src="img/logos/techcrunch.png" alt="" class="hidden">
             </div>
         </section>
     </section>
@@ -88,36 +89,88 @@
             </div>
         </div>
         <div class="sec3_d3">
-            <div class="mobileimg">
-                <img src="img/app/app-screen-3.png" alt="">
-            </div>
             <div class="sec3para">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio ea corrupti fugiat pariatur nisi molestiae natus accusamus repellendus mollitia culpa.</p>
+            </div>
+            <div class="mobileimg">
+                <img src="img/app/app-screen-1.png" alt="">
             </div>
         </div>
     </section>
     <div class="card_text">
-        <p> Our Meals</p>
+        <p> <b>Our Meals</b></p>
     </div>
     <section class="sec_card">
         <div class="card_1 sec_cards">
             <img src="img/meals/meal-1.jpg" alt="">
-            <button class="card_but">Dev</button>
+            <div class="align_in">
+                <button class="card_but">Dev</button>
+            <h2 class="h2">Japanese</h2>
+            <p>650 calories</p>
+            <p>NutriScore 74</p>
+            <p>4.9 rating</p>
+            </div>
         </div>
         <div class="card_2 sec_cards">
             <img src="img/meals/meal-2.jpg" alt="">
+            <div class="align_in">
+                <div class="sec2_but">
+                    <button class="card_but">Veg</button>
+                    <button class=" non">Non-Veg</button>
+                </div>
+            <h2 class="h2">Japanese</h2>
+            <p>650 calories</p>
+            <p>NutriScore 74</p>
+            <p>4.9 rating</p>
+            </div>
         </div>
-        <div class="card_3 sec_cards">
-            <p>Diet Plan</p>
+        <div class="card_3">
+            <h3 class="h3">Diet Plan</h3>
             <ul>
-                <li>Veg</li>
-                <li>Non Veg</li>
-                <li>Spicy</li>
-                <li>Low-fat</li>
-                <li>Salads</li>
+                <li><i class="fa-solid fa-check"></i>Veg</li>
+                <li><i class="fa-solid fa-check"></i>Non Veg</li>
+                <li><i class="fa-solid fa-check"></i>Spicy</li>
+                <li><i class="fa-solid fa-check"></i>Low-fat</li>
+                <li><i class="fa-solid fa-check"></i>Salads</li>
+                <li><i class="fa-solid fa-check"></i>Chicken</li>
+                <li><i class="fa-solid fa-check"></i>Manchurian</li>
+                <li><i class="fa-solid fa-check"></i>Green</li>
+                <li><i class="fa-solid fa-check"></i>Korma</li>
             </ul>
         </div>
+       
     </section>
+    <div class="bottom_c">
+        <p>See all Recipies</p>
+    </div>
+
+
+    <div class="main_menu">
+        <div class="menu_menu">
+            <h2>Get you First Meal</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias alias reiciendis veniam neque sequi nulla similique consequuntur, maxime et mollitia?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, ratione!
+            </p>
+            <div class="menu_inputs">
+                <div class="top_inputs">
+                    Full Name <br>
+                    <input type="text" name="Name" placeholder="name">
+                    Email 
+                    <input type="email" name="" id="" placeholder="mail">
+                </div>
+                <div class="bottom_inputs">
+                    <input type="text" name="Name" placeholder="name">
+                    <input type="email" name="" id="" placeholder="mail">
+                </div>
+            </div>
+        </div>
+        <img src="/img/eating.jpg" alt="" height="400px">
+    </div>
+
+    <footer class="footer">
+
+    </footer>
+    <script src="main.js"></script>
 </body>
-<script src="main.js"></script>
+
 </html>

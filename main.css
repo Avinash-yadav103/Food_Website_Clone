@@ -45,3 +45,17 @@ body{
     /* overflow: hidden; */
     border-radius: 50%;
 }
+
+
+
+/* scroll animations */
+.hidden{
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.show{
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 0.5s ease-in-out;
+}

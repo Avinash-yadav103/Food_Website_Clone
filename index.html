@@ -147,28 +147,93 @@
 
     <div class="main_menu">
         <div class="menu_menu">
-            <h2>Get you First Meal</h2>
+            <h2>Get your First Meal</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias alias reiciendis veniam neque sequi nulla similique consequuntur, maxime et mollitia?
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, ratione!
             </p>
             <div class="menu_inputs">
-                <div class="top_inputs">
-                    Full Name <br>
-                    <input type="text" name="Name" placeholder="name">
-                    Email 
-                    <input type="email" name="" id="" placeholder="mail">
+                <div class="input_group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Your name">
                 </div>
-                <div class="bottom_inputs">
-                    <input type="text" name="Name" placeholder="name">
-                    <input type="email" name="" id="" placeholder="mail">
+                <div class="input_group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com">
                 </div>
+                <div class="input_group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your phone">
+                </div>
+                <div class="input_group">
+                    <label for="preference">Food Preference</label>
+                    <select id="preference" name="preference">
+                        <option value="" disabled selected>Select your preference</option>
+                        <option value="veg">Vegetarian</option>
+                        <option value="non-veg">Non-Vegetarian</option>
+                        <option value="vegan">Vegan</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit_btn">Get Started</button>
             </div>
         </div>
-        <img src="/img/eating.jpg" alt="" height="400px">
+        <div class="menu_image">
+            <img src="img/eating.jpg" alt="Person enjoying food">
+        </div>
     </div>
 
     <footer class="footer">
-
+        <div class="footer-container">
+            <div class="logo-col">
+                <div class="footer-logo">
+                    <p><b>Full Stack</b></p>
+                </div>
+                <ul class="social-links">
+                    <li><a href="#" class="footer-link"><i class="fa-brands fa-instagram social-icon"></i></a></li>
+                    <li><a href="#" class="footer-link"><i class="fa-brands fa-facebook social-icon"></i></a></li>
+                    <li><a href="#" class="footer-link"><i class="fa-brands fa-twitter social-icon"></i></a></li>
+                </ul>
+                <p class="copyright">
+                    Copyright &copy; <span class="year">2025</span> by Full Stack, Inc.
+                    All rights reserved.
+                </p>
+            </div>
+            <div class="address-col">
+                <p class="footer-heading">Contact us</p>
+                <address class="contacts">
+                    <p class="address">623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+                    <p>
+                        <a class="footer-link" href="tel:415-201-6370">415-201-6370</a><br>
+                        <a class="footer-link" href="mailto:hello@fullstack.com">hello@fullstack.com</a>
+                    </p>
+                </address>
+            </div>
+            <nav class="nav-col">
+                <p class="footer-heading">Account</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">Create account</a></li>
+                    <li><a class="footer-link" href="#">Sign in</a></li>
+                    <li><a class="footer-link" href="#">iOS app</a></li>
+                    <li><a class="footer-link" href="#">Android app</a></li>
+                </ul>
+            </nav>
+            <nav class="nav-col">
+                <p class="footer-heading">Company</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">About Full Stack</a></li>
+                    <li><a class="footer-link" href="#">For Business</a></li>
+                    <li><a class="footer-link" href="#">Cooking partners</a></li>
+                    <li><a class="footer-link" href="#">Careers</a></li>
+                </ul>
+            </nav>
+            <nav class="nav-col">
+                <p class="footer-heading">Resources</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">Recipe directory</a></li>
+                    <li><a class="footer-link" href="#">Help center</a></li>
+                    <li><a class="footer-link" href="#">Privacy & terms</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
     <script src="main.js"></script>
 </body>
